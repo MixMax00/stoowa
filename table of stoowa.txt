@@ -1,0 +1,66 @@
+Stowaa Table List:
+
+1.     Language Table.
+2.     contact Table.
+3.     Menu Table.
+4.     Category Table.
+5.     barnd table.
+6.     size table.
+7.     color table.
+8.     Product table.
+9.     Image gallery Table.
+10.  add Banner table.
+11.  customer table.
+12.  shipping table.
+13.  order table.
+14.  order details table.
+15.  payment table.
+
+Size Table  + model +controller
+===========
+id
+size_name
+slug
+status
+
+Color Table + model +controller
+===========
+id
+color_name
+slug
+status
+
+Product Table  + model +controller
+=========
+id
+product_title
+slug
+user_id
+short_description
+price
+sale_price
+quantity
+description
+add_info
+status
+
+Product Gallery  + model
+=============
+id
+product_id
+image
+status
+
+ProductSize
+===========
+product_id
+size_id
+
+ColorProduct
+============
+color_id
+product_id
+
+
+
+
